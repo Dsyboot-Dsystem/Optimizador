@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Optimizador.exe" version="1.0.0.2" publicKeyToken="060eecd9e88ca5de" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Icon1616.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Optimizador" version="1.5.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Optimizador.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Optimizador.exe" size="206336">
+      <assemblyIdentity name="Optimizador" version="1.5.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>10BMxvV5Q5/uk78CwSGkSeqhMio=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Icon1616.ico" size="3774">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>G7Ha+anKKcrF2P+/ydfe2ml/7z8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-2GI4UTO\Reparador Dsyboot" issuerKeyHash="d0078017b104427121107a33174cccf9bb3b02d8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>W+zZCC509/IL0I/LR5lU1E3JEMQ=</DigestValue></Reference></SignedInfo><SignatureValue>JQrVNUGdnEwLrX/odd+9sm9Di4zS9Efe59ZbmSlI/s4Wu8MH5Y9xjG4Bbmzwv+sk3TmrO1gzOXNdcROsPgesHyiwaE7xj6g6WAV4y92XjzKjBRJwQLh4IXgAsRlAF+mi9ycypm7GWarS4fpCswsx0bxw1LkyiRykk1q3eaMGUlU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zoC342gN4DCcMfu78o9hhpIFYPZPglelwgJWECNqh265opNFske1uXB6IhGYc4qAgRkrChYv8sW3K2NpqthGvJ0xCkYRK63scZPjipDoki5Rs6OZmRKNyiXV2aCPEdU3yVOii8DQsM4j8MoStbyk7rgaQaOaIVTdyUEtE4CBi7k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c410c94dd4549947cb8fd00bf2f7742e08d9ec5b" Description="" Url=""><as:assemblyIdentity name="Optimizador.exe" version="1.0.0.2" publicKeyToken="060eecd9e88ca5de" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-2GI4UTO\Reparador Dsyboot</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>0l5Z4jithi6vH/HCtjitpNklrcc=</DigestValue></Reference></SignedInfo><SignatureValue>paB9m1bc2CBkN0wKNeD9ApZDygBg5Kq9rwb9Gzm1X9TaHwCXZvvGB9F5Yq/JONpQJnXALMAw0+rIbypUtm8PQCYM63q69Zemb1krppuCud0CdTGICx1DMG4bplGz0J6fTmVtXQtbFU7yxrDqlkcaop2dZWG9K+xlg8N2Eoz7jNM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zoC342gN4DCcMfu78o9hhpIFYPZPglelwgJWECNqh265opNFske1uXB6IhGYc4qAgRkrChYv8sW3K2NpqthGvJ0xCkYRK63scZPjipDoki5Rs6OZmRKNyiXV2aCPEdU3yVOii8DQsM4j8MoStbyk7rgaQaOaIVTdyUEtE4CBi7k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICHTCCAYagAwIBAgIQYhXfbLzi9LhC3AuROiMICzANBgkqhkiG9w0BAQUFADBNMUswSQYDVQQDHkIARABFAFMASwBUAE8AUAAtADIARwBJADQAVQBUAE8AXABSAGUAcABhAHIAYQBkAG8AcgAgAEQAcwB5AGIAbwBvAHQwHhcNMjEwOTA5MjAyMTMzWhcNMjIwOTEwMDIyMTMzWjBNMUswSQYDVQQDHkIARABFAFMASwBUAE8AUAAtADIARwBJADQAVQBUAE8AXABSAGUAcABhAHIAYQBkAG8AcgAgAEQAcwB5AGIAbwBvAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAM6At+NoDeAwnDH7u/KPYYaSBWD2T4JXpcICVhAjaoduuaKTRbJHtblweiIRmHOKgIEZKwoWL/LFtytjaarYRrydMQpGESut7HGT44qQ6JIuUbOjmZkSjcol1dmgjxHVN8lToovA0LDOI/DKErW8pO64GkGjmiFU3clBLROAgYu5AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAy89XHwwWBnyUi2/YhYS4gjTxuw/JsGAiEinB64olYSw1AEH8pPn8x6w88thJhfuCF1FWc9YVYpmBJhzs8msYU11bfcS0zMs5hUfOrDY0V7oRxllZVIDWN+02BMV7n3+ZxX+s0g7Id7SI8SOeV8+63qgaDuObrMds5k/GlL5BaLo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
