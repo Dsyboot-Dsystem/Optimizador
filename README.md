@@ -1,3 +1,10 @@
+#Advertencia!
+
+-Necesitas .net framework 4.0 para correr sin problemas el programa:https://www.microsoft.com/es-es/download/details.aspx?id=17718
+-Puedes instalarlo tambien de este repositorio (Spanish only)
+
+#Info
+
 -Versiones antiguas no disponibles por falta de tiempo
 -Creado en .Net 4.0
 -Proyecto Personal pensado por mi Dsyboot/Dsystem
