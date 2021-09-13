@@ -1,7 +1,7 @@
 #Advertencia!
 
 -Necesitas .net framework 4.0 para correr sin problemas el programa:https://www.microsoft.com/es-es/download/details.aspx?id=17718
--Puedes instalarlo tambien de este repositorio (Spanish only)
+-EL repositorio no lo incluye por que pesa mas de 25mb (46mb aprox)
 
 #Info
 
