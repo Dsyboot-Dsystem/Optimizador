@@ -21,3 +21,15 @@
 #Ejecucion mas estable
 #Cambio total del codigo
 #Interfaz mas limpia
+
+# Versión 1.5.a:
+
+#Modo de creación de accesos directos
+
+# Versión 1.5.b:
+
+#Arreglo de bug de creación de acceso directo
+#Ya se puede desinstalar!
+#Ahora sólo puedes descargar los .exe
+
+
