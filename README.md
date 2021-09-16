@@ -32,4 +32,6 @@
 #Ya se puede desinstalar!
 #Ahora sólo puedes descargar los .exe
 
+# Version 1.5.c:
 
+#archivo faltante reponido
